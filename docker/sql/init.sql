@@ -1,0 +1,6 @@
+-- INSERT INTO messages(message)
+-- VALUES ('Msg #1');
+-- INSERT INTO messages(message)
+-- VALUES ('Msg #2');
+-- INSERT INTO messages(message)
+-- VALUES ('Msg #3');
