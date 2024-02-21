@@ -129,7 +129,7 @@ docker-compose up
 sbt run
 ```
 
-I didn't invest too much time in testing (shame in me), just in demo purposes
+I didn't invest too much time in testing (shame on me), just in demo purposes
 ```scala
 val transactor = Transactor.fromDriverManager[IO]("org.postgresql.Driver", "jdbc:postgresql://localhost:5432/iceo", "docker", "docker")
 val repository = new MessageRepository(transactor)
